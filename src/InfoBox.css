@@ -1,0 +1,55 @@
+.inforbox {
+    flex: 1;
+    transition: transform 410ms;
+}
+
+
+
+.inforbox:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+
+.inforbox:not(:last-child) {
+    margin-right: 15px;
+}
+
+
+.inforbox__cases {
+    color:#ea4310;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.Deaths {
+    color: #cc1034 !important;
+}
+
+.Recovered {
+    color: #7dd71d !important;
+}
+
+.inforbox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+
+
+
+.inforboxSelected__cases {
+    border-bottom: 10px solid #ea4310;
+}
+
+
+.inforboxSelected__deaths {
+    border-bottom: 10px solid #cc1034;
+}
+
+
+.inforboxSelected__recovered{
+    border-bottom: 10px solid #7dd71d;
+}
